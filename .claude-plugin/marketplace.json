@@ -12,8 +12,8 @@
       "category": "development",
       "lspServers": {
         "ty": {
-          "command": "ty",
-          "args": ["server"],
+          "command": "${CLAUDE_PLUGIN_ROOT}/plugins/ty-lsp/bin/ty-wrapper",
+          "args": [],
           "extensionToLanguage": {
             ".py": "python",
             ".pyi": "python"
